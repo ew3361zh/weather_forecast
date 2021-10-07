@@ -1,0 +1,47 @@
+ERROR:root:Error fetching current weather data for ithaca, us
+Traceback (most recent call last):
+  File "/Users/niko/Desktop/Capstone/week7/api_calls/forecast.py", line 24, in main
+    forecast_output(forecast_data, city, country)
+  File "/Users/niko/Desktop/Capstone/week7/api_calls/forecast.py", line 85, in forecast_output
+    logging.info('Successful query with result: ' + 'weather for ' + forecast_date + ' is ' + weather)
+TypeError: can only concatenate str (not "datetime.datetime") to str
+INFO:root:Successful query with result: weather is scattered clouds
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is light rain
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is light rain
+INFO:root:Successful query with result: weather is light rain
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is clear sky
+INFO:root:Successful query with result: weather is clear sky
+INFO:root:Successful query with result: weather is scattered clouds
+INFO:root:Successful query with result: weather is scattered clouds
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is broken clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is overcast clouds
+INFO:root:Successful query with result: weather is light rain
+INFO:root:Successful query with result: weather is light rain
+INFO:root:Successful query with result: weather is light rain
